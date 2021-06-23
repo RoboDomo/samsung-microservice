@@ -1,0 +1,36 @@
+{
+  "name": "samsung-microservice",
+  "version": "1.0.0",
+  "description": "Microservice to monitor and control Samsung TVs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RoboDomo/samsung-microservice.git"
+  },
+  "keywords": [
+    "RoboDomo",
+    "Microservice",
+    "NodeJS",
+    "Samsung",
+    "TV",
+    "MQTT"
+  ],
+  "author": "mschwartz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RoboDomo/samsung-microservice/issues"
+  },
+  "homepage": "https://github.com/RoboDomo/samsung-microservice#readme",
+  "dependencies": {
+    "debug": "^4.3.1",
+    "is-port-reachable": "^3.0.0",
+    "samsung-tv-control": "^1.12.3",
+    "superagent": "^6.1.0",
+    "websocket": "^1.0.34",
+    "ws": "^7.5.0"
+  }
+}
